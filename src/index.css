@@ -118,8 +118,8 @@ span {
     box-shadow: var(--dark-shadow);
 }   
 .navbar .logo {
-   width: 4vh;
-   height: 4vh;
+   width: 5vh;
+   height: 5vh;
         
 }
 .navbar-flex {
@@ -219,7 +219,7 @@ span {
     position: relative;
 }
 .hero {
-      background: url(../img/beachspot.png) center/cover no-repeat; 
+      background: url(../src/assets/beachspot.png) center/cover no-repeat; 
     color: var(--primary-white);
     position: relative;
     text-align: center;
