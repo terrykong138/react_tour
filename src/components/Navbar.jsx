@@ -2,7 +2,7 @@ import {useState} from "react";
 import PageLink from "./PageLink";
 import SocialLink from "./SocialLink";
 import logo from "/src/assets/tourlogo.png";
-import PageLinks from "./PageLinks";
+// import PageLinks from "./PageLinks";
 import { pageLinks } from "../data";
 const Navbar = () => {
     const [isToggle,setToggle] = useState(false);
@@ -15,8 +15,7 @@ const Navbar = () => {
             <img src={logo} alt="logo" className="logo" /> 
             {/* <!-- desktop menu --> */}
              <div className="main-menu" > 
-                <PageLinks groupName="menu-list" itemName="menu-item" />
-              {/* <PageLink groupName="menu-list" itemName="menu-item" /> */}
+              <PageLink groupName="menu-list" itemName="menu-item" /> 
             </div>                
                 <div className="icon-menu">
                    <SocialLink />
